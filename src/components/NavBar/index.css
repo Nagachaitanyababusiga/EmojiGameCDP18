@@ -1,0 +1,31 @@
+/* Write your code here. */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-image: linear-gradient(to right, #6a59ff, #fbc7d4);
+}
+.whole-logo {
+  width: 40px;
+  height: 35px;
+}
+.nav-text-cont {
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+  font-weight: bold;
+  justify-content: space-between;
+  width: 200px;
+}
+.nav-icon-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 28px;
+}

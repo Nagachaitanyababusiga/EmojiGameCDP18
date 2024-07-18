@@ -1,0 +1,28 @@
+/* Write your code here. */
+.win-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.win-text-cont {
+  color: #ffffff;
+  font-weight: bold;
+}
+.play-again {
+  background-color: #ffce27;
+  color: #3d3d3d;
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 80px;
+  height: 25px;
+  border-width: 0px;
+}
+@media (max-width:767px) {
+  .winorloseImage {
+    width: 150px;
+    height: 200px;
+  }
+}

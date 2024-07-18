@@ -1,0 +1,26 @@
+.EmjCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgba(253, 252, 252, 0.5);
+}
+.btn-emj {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media (max-width: 767px) {
+  .cardImage {
+    width: 30px;
+    height: 30px;
+  }
+  .EmjCard{
+    margin: 5px;
+  }
+}
